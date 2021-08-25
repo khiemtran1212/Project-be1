@@ -9,6 +9,6 @@ switch ($type) {
         break;
     default:
         $uri = $_SERVER['REQUEST_URI'];
-        include_once BASE_URL . '/app/views/index.php';
+        include_once './app/views/index.php';
         break;
 }
