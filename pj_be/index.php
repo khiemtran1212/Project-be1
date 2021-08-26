@@ -1,6 +1,7 @@
 <?php
 define("ROOT_URL", __DIR__);
 define("BASE_URL", "http://127.0.0.1/pj_be1/pj_be/");
+
 include_once ROOT_URL.'/app/config/config.php';
 
 spl_autoload_register(function($className) {
@@ -14,5 +15,4 @@ include_once ROOT_URL . '/app/routes.php';
 $request_url = !empty($_GET['url']) ? '/' . $_GET['url'] : '/';
 
 $method_url = !empty($_SERVER['REQUEST_METHOD']) ? $_SERVER['REQUEST_METHOD'] : 'GET';
-echo $_SERVER['REQUEST_METHOD'];
 $router->map($request_url, $method_url);
