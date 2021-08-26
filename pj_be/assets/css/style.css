@@ -1,0 +1,7 @@
+body {
+    background-image: url("./img/ari.jpg");
+    background-size: cover ;
+    background-position: center center ;
+    min-height: 100vh;
+    margin: 0;
+}

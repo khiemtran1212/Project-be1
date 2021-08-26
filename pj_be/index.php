@@ -1,6 +1,10 @@
 <?php
 define("ROOT_URL", __DIR__);
-define("BASE_URL", "http://127.0.0.1/pj_be1/pj_be/");
+<<<<<<< Updated upstream
+define("BASE_URL", "http://127.0.0.1/Project-be1/pj_be/");
+=======
+define("BASE_URL", "http://127.0.0.1/Project-be1/pj_be");
+>>>>>>> Stashed changes
 
 include_once ROOT_URL.'/app/config/config.php';
 
