@@ -1,6 +1,6 @@
 <?php
 define("ROOT_URL", __DIR__);
-define("BASE_URL", "http://127.0.0.1/pj_be1/pj_be/");
+define("BASE_URL", "http://127.0.0.1/pj_be1/pj_be");
 
 include_once ROOT_URL.'/app/config/config.php';
 
