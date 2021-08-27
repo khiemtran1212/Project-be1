@@ -1,0 +1,73 @@
+body {
+    background-image: url("../img/ari.jpg");
+    background-size: cover ;
+    background-position: center center  ;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container-1{
+    width: 280px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+  }
+  .container-1 input#search{
+    width: 50px;
+    height: 35px;
+    background: #f1efef;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #262626;
+    padding-left: 40px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+   
+    -webkit-transition: width .55s ease;
+    -moz-transition: width .55s ease;
+    -ms-transition: width .55s ease;
+    -o-transition: width .55s ease;
+    transition: width .55s ease;
+  }
+  .container-1 input#search::-webkit-input-placeholder {
+    color: #65737e;
+ }
+  
+ .container-1 input#search:-moz-placeholder { /* Firefox 18- */
+    color: #65737e;  
+ }
+  
+ .container-1 input#search::-moz-placeholder {  /* Firefox 19+ */
+    color: #000000;  
+ }
+  
+ .container-1 input#search:-ms-input-placeholder {  
+    color: #000000;  
+ }
+ .container-1 .icon{
+    position: absolute;
+    top: -10px;
+    margin-left: 17px;
+    margin-top: 17px;
+    z-index: 1;
+    color: #000000;
+    
+  }
+  .container-1 input#search:focus, .container-1 input#search:active{
+    outline:none;
+    width: 300px;
+  }
+   
+  .container-1:hover input#search{
+  width: 300px;
+  }
+   
+  .container-1:hover .icon{
+    color: #030303;
+  }
