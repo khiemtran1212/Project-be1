@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
-    <!-- Header-->
+<!-- Header-->
 <?php
-    include_once './app/views/header.php';
+include_once ROOT_URL . './app/views/header.php';
 ?>
 
 <body>
-        <!-- Navbar-->
+    <!-- Navbar-->
     <?php
-        include_once './app/views/navbar.php';
+    include_once ROOT_URL . './app/views/navbar.php';
     ?>
     <main class="page landing-page">
         <section class="clean-block clean-hero" style="background-image:url(&quot;assets/img/tech/image4.jpg&quot;);color:rgba(9, 162, 255, 0.85);">
@@ -120,15 +120,14 @@
         </section>
     </main>
     <!-- Footer-->
-    <?php 
-        include_once './app/views/footer.php';
-    
+    <?php
+    include_once ROOT_URL . './app/views/footer.php';
+
     ?>
-    <script src="<?php echo BASE_URL;?>/assets/js/jquery.min.js"></script>
-    <script src="<?php echo BASE_URL;?>/assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
-    <script src="<?php echo BASE_URL;?>/assets/js/smoothproducts.min.js"></script>
-    <script src="<?php echo BASE_URL;?>/assets/js/theme.js"></script>
+    <!-- js -->
+    <?php
+    include_once ROOT_URL . './app/views/js.php';
+    ?>
 </body>
 
 </html>

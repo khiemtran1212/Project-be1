@@ -1,4 +1,5 @@
 <?php
+namespace app\models;
 class Db
 {
     public static $conection = null;
@@ -6,7 +7,7 @@ class Db
     public function __construct()
     {
         if (!self::$conection) {
-            self::$conection = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME, DB_PORT);
+            self::$conection = new \mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME, DB_PORT);
             self::$conection->set_charset('utf8mb4');
         }
         return self::$conection;

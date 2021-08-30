@@ -3,13 +3,13 @@
 
 <!-- Header-->
 <?php
-    include_once './app/views/header.php';
+    include_once ROOT_URL. './app/views/header.php';
 ?>
 
 <body>
      <!-- Navbar-->
      <?php 
-        include_once './app/views/navbar.php';
+        include_once ROOT_URL. './app/views/navbar.php';
     ?>
     <main class="page catalog-page">
         <section class="clean-block clean-catalog dark">
@@ -198,14 +198,13 @@
     </main>
     <!-- Footer-->
     <?php 
-        include_once './app/views/footer.php';
+        include_once ROOT_URL. './app/views/footer.php';
     
     ?>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
-    <script src="assets/js/smoothproducts.min.js"></script>
-    <script src="assets/js/theme.js"></script>
+     <!-- js -->
+     <?php
+    include_once ROOT_URL . './app/views/js.php';
+    ?>
 </body>
 
 </html>

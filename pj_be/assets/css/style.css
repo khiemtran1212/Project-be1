@@ -93,3 +93,19 @@ body {
   #cart:hover {
     border-color: #fff;
   }
+  #user {
+    width: 50px;
+    height: 45px;
+    background: #f1efef;
+    float: left;
+    color: #262626;
+    padding-left: 45px;
+    color: rgb(0, 0, 0);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    outline: none;
+    margin-left: 1rem;
+    padding: 10px;
+    cursor: pointer;
+    
+  }

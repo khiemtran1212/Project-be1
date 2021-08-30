@@ -1,7 +1,7 @@
 <?php
 define("ROOT_URL", __DIR__);
 
-define("BASE_URL", "http://127.0.0.1/Project-be1/pj_be/");
+define("BASE_URL", "http://127.0.0.1/Project-be1/pj_be");
 
 
 
